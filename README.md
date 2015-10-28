@@ -6,9 +6,11 @@
 
 | File | Description |
 | --- | --- |
-| `.bash-profile` | Customizes the Terminal.app prompt and echos the currently checked out Git branch. |
+| `.zshrc` | Aliases and PATH |
+| `.bash-profile` | Mirror of .zshrc just in case |
 | `.gitconfig` | Global Git configuration to specify my name and email, shortcuts, colors, and more. |
-| `.gitignore` | The ignore file from [twbs/bootstrap](https://github.com/twbs/bootstrap) that I use everywhere. |
+| `.gitignore` | The ignore file for android and Mac OS X stuff |
+| `.vimrc` | Vim configuration |
 | `Preferences.sublime-settings` | My Sublime Text 2 user preferences. |
 
 ## Checklist
@@ -19,6 +21,15 @@
 - Download and install Xcode command line tools
 
 ### 2. Download dependencies
+
+- `brew install zsh`
+- `brew install tig`
+- `brew install unrar`
+- `brew install autojump`
+- `brew install fzf`
+- `brew install git`
+- `brew install ncdu`
+
 
 - Install [rbenv](https://github.com/sstephenson/rbenv)
 - Install [a Ruby version](https://github.com/sstephenson/rbenv#installing-ruby-versions) (last one I used was `1.9.3-p551`)
